@@ -22,7 +22,7 @@ function Card() {
 					style={{
 						position: "absolute",
 						top: "2vh",
-						left: "17vw",
+						left: "19vw",
 						color: "blue",
 					}}>
 					<ComputerIcon
@@ -66,7 +66,8 @@ function Card() {
 					style={{
 						position: "absolute",
 						top: "2vh",
-						right: "16vw",
+						right: "50%",
+						left: "40%",
 						color: "blue",
 					}}>
 					<DeveloperModeIcon

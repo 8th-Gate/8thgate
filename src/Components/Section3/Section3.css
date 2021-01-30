@@ -1,6 +1,6 @@
 .section3 {
     background-color: #e0dfdf;
-    height: 100vh;
+    height: 60vh;
 }
 
 .grid__container {
@@ -8,8 +8,3 @@
 }
 
 
-.image__container{
-    height: 200px;
-   
-   
-}
