@@ -4,4 +4,16 @@
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
+    position: relative;
+    filter: grayscale(.4) opacity(.9);
+   
+}
+.cover__description{
+    
+    position: absolute;
+    bottom: 50%;
+    color: white;
+    left: 10%;
+    height: 10vh;
+   
 }
