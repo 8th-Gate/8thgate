@@ -27,7 +27,7 @@ function Header() {
 	const [show, handleShow] = useState(false);
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
-			if (window.scrollY > 80) {
+			if (window.scrollY > 60) {
 				handleShow(true);
 			} else handleShow(false);
 		});
@@ -280,15 +280,6 @@ function Header() {
 							show && "mainHeader__buttonAppear"
 						}`}>
 						Contact Us
-					</Link>
-					<Link to="/beta" className="header__link">
-						<Button
-							endIcon={<ArrowForwardIcon />}
-							variant="contained">
-							<Typography style={{ fontSize: 12 }}>
-								Ask for Us
-							</Typography>
-						</Button>
 					</Link>
 				</div>
 			)}
