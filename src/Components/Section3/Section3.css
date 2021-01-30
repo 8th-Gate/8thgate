@@ -1,6 +1,7 @@
 .section3 {
     background-color: #e0dfdf;
-    height: 60vh;
+    max-height: 100vh;
+  padding-bottom: 30vh;
 }
 
 .grid__container {

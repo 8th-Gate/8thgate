@@ -93,8 +93,7 @@ function Card() {
 						textAlign: "center",
 					}}>
 					We design Websites, create web, mobile and desktop apps
-					using the latest technology and frameworks. We analyse data
-					and provide you with solutions
+					using the latest technology and frameworks.
 				</div>
 			</Paper>
 		</div>

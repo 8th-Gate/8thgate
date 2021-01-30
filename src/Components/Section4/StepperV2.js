@@ -27,36 +27,37 @@ const useStyles = makeStyles((theme) => ({
 
 function getSteps() {
 	return [
-		"Network Cabling",
-		"Network Design",
-		"Network Support",
-		"Network Security",
-		"Network Configuration",
-		"Server Administrator",
-		"VOIP (Voice Over IP)",
-		"Data security",
+		"Web software apps",
+		"Mobile software apps",
+		"Desktop software apps",
+		"Data Analyze",
+		" Hosting Services",
+		"Security cameras system",
+		"Software and hardware purchasing",
+		"Software applications",
 	];
 }
 
 function getStepContent(step) {
 	switch (step) {
 		case 0:
-			return "Our team will provide installation, cables testing and maintenance of various network devices..";
-
+			return `Our programmers will design and build websitesforour customers with any feature required and will provide technical support after implementation.`;
 		case 1:
-			return `Our team will plan the implementation of a computer network infrastructure in order to satisfy data communication requirements and meet the needs of the subscriber.`;
+			return `
+Our programmers will design and build android andIOS applicationsfor our customers with any feature required and will provide technical support after implementation.`;
 		case 2:
-			return `Our team will assist you in keeping your organization’s computer network operating correctly. (AP installation, management and maintenance of SolarWinds)`;
+			return `Our programmers will design and build desktop applications and any system for our customers with any feature required and will provide technical support after implementation.`;
 		case 3:
-			return `We provide various tasks designed to protect the integrity of the network and data such as the installation and management of antivirus systems and firewall systems.`;
+			return `Our experts can analyze data and provide our customers with the needed information and recommendation to reach their full potential.`;
 		case 4:
-			return `Our team will configure and establish the connectivity between network devices (routers, switches andAP).`;
+			return `Our experts will provide you with the best and most affordable hosting providers.
+We can also provide this service on behalf of our clients.`;
 		case 5:
-			return `Our team will manage, control and operate your servers and take care of any activity on servers' side (domain servers, web servers...)`;
+			return `We provide your company with security cameras system which is the central part of a surveillance system allowing user to record clear video of the facility or property.`;
 		case 6:
-			return `We provide installation, and maintenance of your VOIP systems and perform numerous tasks such as adding usersorPBX...`;
+			return `Our team’s experts will provide you with the best hardware and software purchases based on your requirements and at affordable prices.`;
 		case 7:
-			return `Our team provides you with solutions to protect your data from unauthorized access or hacking across all applications and platforms through data encryption, hashing and tokenization
+			return `Our team will assist you in the development, analysis and testing of your requested web or mobile application after finishing the whole lifecycle.
 `;
 
 		default:
@@ -64,7 +65,7 @@ function getStepContent(step) {
 	}
 }
 
-export default function VerticalLinearStepper() {
+export default function VerticalLinearStepperV2() {
 	const classes = useStyles();
 	const [activeStep, setActiveStep] = React.useState(0);
 	const steps = getSteps();
@@ -86,10 +87,12 @@ export default function VerticalLinearStepper() {
 			className={classes.root}
 			style={{ backgroundColor: "transparent" }}>
 			<Stepper
-				nonLinear={true}
 				activeStep={activeStep}
 				orientation="vertical"
-				style={{ backgroundColor: "transparent" }}>
+				style={{
+					backgroundColor: "transparent",
+					maxHeight: "80vh",
+				}}>
 				{steps.map((label, index) => (
 					<Step key={label}>
 						<StepLabel>{label}</StepLabel>
