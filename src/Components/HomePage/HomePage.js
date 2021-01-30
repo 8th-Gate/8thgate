@@ -6,7 +6,10 @@ function HomePage() {
 	return (
 		<div className="homepage">
 			<Cover />
-			<Card />
+			<Card
+				title="Cloud Solutions"
+				description="Cloud services by any cloud provider"
+			/>
 		</div>
 	);
 }
