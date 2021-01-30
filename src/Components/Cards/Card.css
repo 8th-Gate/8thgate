@@ -1,6 +1,8 @@
 .card{
-    height: 80vh;
-    width: 70%;
-    margin: auto;
+    height: 35vh;
+    margin-bottom: 10vh;
+    justify-content: space-around;
+    display: flex;
+    max-width: 100%;
    
 }

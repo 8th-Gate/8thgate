@@ -9,94 +9,93 @@ import "./Card.css";
 function Card() {
 	return (
 		<div className="card">
-			<Grid container spacing={4}>
-				<Grid item xs={12} sm={6}>
-					<Paper
-						style={{
-							position: "relative",
-							minHeight: "35vh",
-							maxHeight: "35vh",
-						}}
-						elevation={12}>
-						<div
-							className="logo"
-							style={{
-								position: "absolute",
-								top: "2vh",
-								left: "50%",
-								color: "blue",
-							}}>
-							<ComputerIcon
-								style={{ fontSize: "5vh", color: "#0071bb" }}
-							/>
-						</div>
-						<div
-							className="title"
-							style={{
-								color: "black",
-								textAlign: "center",
-								paddingTop: "10vh",
-								fontSize: "24px",
-								fontWeight: "bolder",
-							}}>
-							IT Services
-						</div>
-						<div
-							className="description"
-							style={{
-								paddingTop: "5vh",
-							}}>
-							<Typography align="center" variant="h6">
-								{" "}
-								Manage, secure and host any of your servers,
-								network and computers.
-							</Typography>
-						</div>
-					</Paper>
-				</Grid>
-				<Grid item xs={12} sm={6}>
-					<Paper
-						style={{
-							position: "relative",
-							minHeight: "35vh",
-							maxHeight: "35vh",
-						}}
-						elevation={12}>
-						<div
-							className="logo"
-							style={{
-								position: "absolute",
-								top: "2vh",
-								left: "50%",
-								color: "blue",
-							}}>
-							<DeveloperModeIcon
-								style={{ fontSize: "5vh", color: "#0071bb" }}
-							/>
-						</div>
-						<div
-							className="title"
-							style={{
-								color: "black",
-								textAlign: "center",
-								paddingTop: "10vh",
-								fontSize: "24px",
-								fontWeight: "bolder",
-							}}>
-							Development Services
-						</div>
-						<div
-							className="description"
-							style={{ paddingTop: "5vh" }}>
-							<Typography align="center" variant="h6">
-								{" "}
-								Design websites, build mobile apps, start an
-								e-commerce, Machine Learning
-							</Typography>
-						</div>
-					</Paper>
-				</Grid>
-			</Grid>
+			<Paper
+				style={{
+					position: "relative",
+					minHeight: "30vh",
+					maxHeight: "35vh",
+					maxWidth: "40vw",
+				}}
+				elevation={12}>
+				<div
+					className="logo"
+					style={{
+						position: "absolute",
+						top: "2vh",
+						left: "17vw",
+						color: "blue",
+					}}>
+					<ComputerIcon
+						style={{ fontSize: "5vh", color: "#0071bb" }}
+					/>
+				</div>
+				<div
+					className="title"
+					style={{
+						color: "black",
+						textAlign: "center",
+						paddingTop: "10vh",
+						fontSize: "3vh",
+						fontWeight: "bolder",
+					}}>
+					IT Services
+				</div>
+				<div
+					className="description"
+					style={{
+						paddingTop: "20px",
+						fontSize: "2vh",
+						textAlign: "center",
+					}}>
+					Manage, secure and host any of your servers, network and
+					computers. Provide you with different solution to secure
+					your Data and support you.
+				</div>
+			</Paper>
+
+			<Paper
+				style={{
+					position: "relative",
+					minHeight: "30vh",
+					maxHeight: "35vh",
+					maxWidth: "40vw",
+				}}
+				elevation={12}>
+				<div
+					className="logo"
+					style={{
+						position: "absolute",
+						top: "2vh",
+						right: "16vw",
+						color: "blue",
+					}}>
+					<DeveloperModeIcon
+						style={{ fontSize: "5vh", color: "#0071bb" }}
+					/>
+				</div>
+				<div
+					className="title"
+					style={{
+						color: "black",
+						textAlign: "center",
+						paddingTop: "10vh",
+						fontSize: "3vh",
+						fontWeight: "bolder",
+					}}>
+					Dev Services
+				</div>
+				<div
+					className="description"
+					style={{
+						paddingTop: "20px",
+						fontSize: "2vh",
+						textAlign: "center",
+					}}>
+					We design Websites, create web, mobile and desktop apps
+					using the latest technology and frameworks. We analyse data
+					and provide you with solutions
+				</div>
+			</Paper>
 		</div>
 	);
 }

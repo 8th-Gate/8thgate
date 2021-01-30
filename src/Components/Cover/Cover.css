@@ -2,6 +2,7 @@
     background-image: url("https://www.coburgbanks.co.uk/wp-content/uploads/2017/09/teamwork-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     position: relative;
     filter: grayscale(.4) opacity(.9);
@@ -10,7 +11,7 @@
 
 .cover__description {
     position: absolute;
-    bottom: 50%;
+    top: 20%;
     color: white;
     left: 8vw;
     height: 10vh;

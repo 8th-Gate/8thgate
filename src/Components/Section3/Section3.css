@@ -1,4 +1,15 @@
-.section3{
+.section3 {
+    background-color: #e0dfdf;
+    height: 100vh;
+}
+
+.grid__container {
+    padding-top: 10%;
+}
+
+
+.image__container{
+    height: 200px;
    
-    
+   
 }
