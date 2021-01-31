@@ -26,13 +26,12 @@ function Section4() {
 						style={{
 							maxWidth: "100%",
 							paddingTop: "8vh",
-							paddingLeft: "15%",
 						}}>
 						<img
-							src="http://theme-vessel-templates.theme-vessel.ey.r.appspot.com/xazi/main/assets/img/img-2.png"
+							src="https://www.scnsoft.com/blog-pictures/custom-software-development/software-development-life-cycle-examples.png"
 							alt=""
 							style={{
-								maxWidth: "80%",
+								maxWidth: "100%",
 								objectFit: "contain",
 							}}
 						/>
