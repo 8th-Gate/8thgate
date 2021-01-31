@@ -1,7 +1,7 @@
 .footer {
     bottom: 0;
     flex-direction: column;
-    
+
 }
 
 .footer__logo {
@@ -19,20 +19,21 @@
 .footer__grid {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    padding-left: 10%;
+    width: 50%;
+    margin: auto;
+
 
 }
 
 .footer__infos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 50px;
     width: 90%;
     margin: auto;
-    color: #6e6e6e;
-    font-size: .8rem;
+    color : rgb(25, 118, 210) !important;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 

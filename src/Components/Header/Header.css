@@ -42,7 +42,7 @@
 .header__link {
   text-decoration: none;
   display: flex;
-  color: rgb(255, 255, 0);
+  color: white
 
 }
 
@@ -55,7 +55,7 @@
 .mainHeader__button {
   align-self: center;
   box-shadow: none !important;
-  color: rgb(255, 255, 0) !important;
+  color: white !important;
   background: transparent !important;
   font-weight: bolder;
   font-size: 20px !important;

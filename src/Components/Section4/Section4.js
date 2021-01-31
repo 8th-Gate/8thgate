@@ -4,7 +4,7 @@ import "./Section4.css";
 import VerticalLinearStepperV2 from "./StepperV2";
 function Section4() {
 	return (
-		<div className="section4">
+		<div className="section4" id="dev">
 			<h1
 				style={{
 					textAlign: "center",

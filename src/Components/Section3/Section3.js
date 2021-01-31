@@ -6,7 +6,7 @@ import "./Section3.css";
 
 function section3() {
 	return (
-		<div className="section3">
+		<div className="section3" id="it">
 			<h1
 				style={{
 					textAlign: "center",
