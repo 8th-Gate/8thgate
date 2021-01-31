@@ -2,8 +2,8 @@ import React from "react";
 import Paper from "@material-ui/core/Paper";
 import ComputerIcon from "@material-ui/icons/Computer";
 import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+// import Grid from "@material-ui/core/Grid";
+// import Typography from "@material-ui/core/Typography";
 import "./Card.css";
 
 function Card() {

@@ -18,7 +18,9 @@ function section3() {
 
 			<Grid container>
 				<Grid item xs={12} sm={6}>
-					<div className="stepper__container">
+					<div
+						className="stepper__container"
+						style={{ paddingLeft: "10%" }}>
 						<VerticalLinearStepper
 							style={{
 								backgroundColor: "transparent",

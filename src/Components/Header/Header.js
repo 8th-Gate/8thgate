@@ -4,12 +4,12 @@ import MenuIcon from "@material-ui/icons/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import { Link } from "react-router-dom";
-import Typography from "@material-ui/core/Typography";
+// import Typography from "@material-ui/core/Typography";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { useTheme } from "@material-ui/core/styles";
-import { Button } from "@material-ui/core";
-import Divider from "@material-ui/core/Divider";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+// import { Button } from "@material-ui/core";
+// import Divider from "@material-ui/core/Divider";
+// import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 import logo from "../../images/8th_gate_logo_nogb.png";
 
 import "./Header.css";
@@ -85,41 +85,65 @@ function Header() {
 						open={Boolean(anchorEl0)}
 						onClose={() => setAnchorEl0(null)}>
 						<MenuItem>
-							<Link
-								to="/press"
+							<a
+								href="#main"
 								className="header__link"
 								style={{
 									fontWeight: "normal",
 									color: "black",
 								}}>
-								Press
-							</Link>
+								About
+							</a>
+						</MenuItem>
+
+						<MenuItem>
+							<a
+								href="#it"
+								className="header__link"
+								style={{
+									fontWeight: "normal",
+									color: "black",
+								}}>
+								Services
+							</a>
+						</MenuItem>
+						<MenuItem>
+							<a
+								href="#footer"
+								className="header__link"
+								style={{
+									fontWeight: "normal",
+									color: "black",
+								}}>
+								Contact
+							</a>
 						</MenuItem>
 					</Menu>{" "}
 				</>
 			) : (
 				<div className="mainHeader__links">
-					<Link
-						to="#pricing"
+					<a
+						href="#main"
 						className={`mainHeader__button header__link ${
 							show && "mainHeader__buttonAppear"
 						}`}>
 						About Us
-					</Link>
+					</a>
+
 					<a
-						href="#pricing"
+						href="#it"
 						className={`mainHeader__button header__link ${
 							show && "mainHeader__buttonAppear"
 						}`}>
-						Pricing
+						Services
 					</a>
-					<Link
-						to="/contact"
+					<a
+						href="#footer"
 						className={`mainHeader__button header__link ${
 							show && "mainHeader__buttonAppear"
 						}`}>
 						Contact Us
-					</Link>
+					</a>
 				</div>
 			)}
 		</div>

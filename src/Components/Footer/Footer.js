@@ -11,7 +11,7 @@ import { Typography } from "@material-ui/core";
 
 function Footer() {
 	return (
-		<div className="footer">
+		<div className="footer" id="footer">
 			<div className="footer__grid">
 				<Grid container spacing={4}>
 					<Grid item xs={12}>
@@ -24,7 +24,7 @@ function Footer() {
 							8th Gate
 						</h2>
 					</Grid>
-					<Grid item xs={12} sm={4}>
+					<Grid item xs={12} sm={6}>
 						<div className="col1">
 							<Typography
 								variant="h5"
@@ -74,9 +74,9 @@ function Footer() {
 							</div>
 						</div>
 					</Grid>
-					<Grid item xs={12} sm={4}>
+					<Grid item xs={12} sm={6}>
 						<div className="col3">
-							<div className="" style={{ paddingBottom: "2vh" }}>
+							<div className="" style={{ paddingBottom: "4vh" }}>
 								<Typography
 									variant="h5"
 									style={{
@@ -86,14 +86,18 @@ function Footer() {
 									Services
 								</Typography>
 							</div>
-							<div className="" style={{ paddingBottom: "4vh" }}>
+							<div
+								className=""
+								style={{
+									paddingBottom: "4vh",
+								}}>
 								<a
 									href="#it"
 									style={{
 										textDecoration: "none",
 										color: "black",
 									}}>
-									<Typography align="center">
+									<Typography variant="body1" align="center">
 										IT Services
 									</Typography>
 								</a>
@@ -105,32 +109,11 @@ function Footer() {
 										textDecoration: "none",
 										color: "black",
 									}}>
-									<Typography align="center">
+									<Typography variant="body1" align="center">
 										Development Services
 									</Typography>
 								</a>
 							</div>
-
-							<a
-								href="#pricing"
-								style={{
-									textDecoration: "none",
-									color: "black",
-								}}>
-								<Typography align="center">Pricing</Typography>
-							</a>
-						</div>
-					</Grid>
-					<Grid item xs={12} sm={4}>
-						<div className="col3">
-							<Typography
-								variant="h5"
-								style={{ fontWeight: "bolder" }}>
-								Support
-								<Typography variant="body2">About</Typography>
-								<Typography variant="body2">FAQs</Typography>
-								<Typography variant="body2">Careers</Typography>
-							</Typography>
 						</div>
 					</Grid>
 				</Grid>

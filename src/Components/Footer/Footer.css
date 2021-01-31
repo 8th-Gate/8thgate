@@ -1,7 +1,7 @@
 .footer {
     bottom: 0;
     flex-direction: column;
-
+    background-color: #f9f9f8;
 }
 
 .footer__logo {
@@ -18,11 +18,8 @@
 
 .footer__grid {
     display: flex;
-    justify-content: space-evenly;
     width: 50%;
     margin: auto;
-
-
 }
 
 .footer__infos {
@@ -32,7 +29,7 @@
     padding-top: 50px;
     width: 90%;
     margin: auto;
-    color : rgb(25, 118, 210) !important;
+    color: rgb(25, 118, 210) !important;
     font-size: 1.2rem;
     font-weight: bold;
 }

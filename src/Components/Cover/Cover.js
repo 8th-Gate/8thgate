@@ -6,7 +6,7 @@ import "./Cover.css";
 
 function Cover() {
 	return (
-		<div className="cover">
+		<div className="cover" id="main">
 			<div className="cover__description">
 				<Grid container>
 					<Grid item xs={8}>
