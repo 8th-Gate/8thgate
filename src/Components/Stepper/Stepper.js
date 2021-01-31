@@ -94,7 +94,9 @@ export default function VerticalLinearStepper() {
 					<Step key={label}>
 						<StepLabel>{label}</StepLabel>
 						<StepContent>
-							<Typography>{getStepContent(index)}</Typography>
+							<Typography style={{ fontSize: "2vh" }}>
+								{getStepContent(index)}
+							</Typography>
 							<div className={classes.actionsContainer}>
 								<div>
 									<Button
