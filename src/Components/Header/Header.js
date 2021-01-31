@@ -86,167 +86,6 @@ function Header() {
 						onClose={() => setAnchorEl0(null)}>
 						<MenuItem>
 							<Link
-								to="/platform"
-								className="header__link"
-								style={{
-									fontWeight: "bolder",
-									color: "darkcyan",
-								}}>
-								Platform
-							</Link>
-						</MenuItem>
-
-						<Divider />
-						<MenuItem>
-							<Link
-								to="/diet"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Diet
-							</Link>
-						</MenuItem>
-
-						<MenuItem>
-							<Link
-								to="/workouts"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Workouts
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/glucose-management"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Glucose-management
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/insights"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Insights
-							</Link>
-						</MenuItem>
-						<MenuItem></MenuItem>
-						<MenuItem>
-							<Link
-								to="/ressources"
-								className="header__link"
-								style={{
-									fontWeight: "bolder",
-									color: "darkcyan",
-								}}>
-								Ressources
-							</Link>
-						</MenuItem>
-						<Divider />
-						<MenuItem>
-							<Link
-								to="/success"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								success-stories
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/webinar"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								webinar
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/blog"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Blog
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/security"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Security
-							</Link>
-						</MenuItem>
-						<MenuItem></MenuItem>
-						<MenuItem>
-							<Link
-								to="/supports"
-								className="header__link"
-								style={{
-									fontWeight: "bolder",
-									color: "darkcyan",
-								}}>
-								Supports
-							</Link>
-						</MenuItem>
-						<Divider />
-						<MenuItem>
-							<Link
-								to="/about"
-								className="header__link "
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								About-us
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/faq"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								FAQs
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
-								to="/careers"
-								className="header__link"
-								style={{
-									fontWeight: "normal",
-									color: "black",
-								}}>
-								Careers
-							</Link>
-						</MenuItem>
-						<MenuItem>
-							<Link
 								to="/press"
 								className="header__link"
 								style={{
@@ -261,19 +100,19 @@ function Header() {
 			) : (
 				<div className="mainHeader__links">
 					<Link
-						to="/about"
+						to="#pricing"
 						className={`mainHeader__button header__link ${
 							show && "mainHeader__buttonAppear"
 						}`}>
 						About Us
 					</Link>
-					<Link
-						to="/about"
+					<a
+						href="#pricing"
 						className={`mainHeader__button header__link ${
 							show && "mainHeader__buttonAppear"
 						}`}>
 						Pricing
-					</Link>
+					</a>
 					<Link
 						to="/contact"
 						className={`mainHeader__button header__link ${

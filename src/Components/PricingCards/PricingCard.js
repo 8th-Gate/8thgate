@@ -4,7 +4,7 @@ import "./PricingCard.css";
 
 function PricingCard() {
 	return (
-		<div className="pricingCard">
+		<div className="pricingCard" id="pricing">
 			<PricingTable highlightColor="#1976D2">
 				<PricingSlot
 					buttonText="TRY IT FREE"
@@ -60,27 +60,6 @@ function PricingCard() {
 					<PricingDetail>
 						{" "}
 						<b>30 GB</b> storage
-					</PricingDetail>
-					<PricingDetail>
-						{" "}
-						<b>Unlimited</b> users
-					</PricingDetail>
-					<PricingDetail>
-						{" "}
-						<b>Time tracking</b>
-					</PricingDetail>
-				</PricingSlot>
-				<PricingSlot
-					buttonText="SIGN UP"
-					title="ENTERPRISE"
-					priceText="$200/month">
-					<PricingDetail>
-						{" "}
-						<b>Unlimited</b> projects
-					</PricingDetail>
-					<PricingDetail>
-						{" "}
-						<b>75 GB</b> storage
 					</PricingDetail>
 					<PricingDetail>
 						{" "}

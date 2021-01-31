@@ -11,6 +11,7 @@
   box-shadow: none !important;
   position: fixed;
   z-index: 100;
+  scroll-behavior: smooth;
   
 }
 .mainHeader__appear {

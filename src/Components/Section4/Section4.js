@@ -19,21 +19,20 @@ function Section4() {
 					xs={12}
 					sm={6}
 					style={{
-						paddingLeft: "10%",
-						paddingTop: "20vh",
 						position: "relative",
 					}}>
 					<div
 						className="image__container"
 						style={{
-							width: "100%",
+							maxWidth: "100%",
+							paddingTop: "8vh",
+							paddingLeft: "15%",
 						}}>
 						<img
 							src="http://theme-vessel-templates.theme-vessel.ey.r.appspot.com/xazi/main/assets/img/img-2.png"
 							alt=""
 							style={{
-								height: "400px",
-								maxWidth: "100%",
+								maxWidth: "80%",
 								objectFit: "contain",
 							}}
 						/>
@@ -41,9 +40,7 @@ function Section4() {
 				</Grid>
 				<Grid item xs={12} sm={6} style={{ paddingLeft: "10%" }}>
 					<div className="stepperContainer">
-						<VerticalLinearStepperV2
-							style={{ backgroundColor: "transparent" }}
-						/>
+						<VerticalLinearStepperV2 />
 					</div>
 				</Grid>
 			</Grid>

@@ -1,5 +1,5 @@
-.pricingCard{
+.pricingCard {
     padding-top: 10vh;
-    height: 40vh;
-  
+    background-color: #f9f9f8;
+    scroll-behavior: smooth;
 }

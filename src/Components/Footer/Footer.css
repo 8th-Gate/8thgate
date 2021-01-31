@@ -1,0 +1,42 @@
+.footer {
+    bottom: 0;
+    flex-direction: column;
+    
+}
+
+.footer__logo {
+    width: 75%;
+    margin: auto;
+
+}
+
+.footer img {
+    height: 10vh;
+    object-fit: contain;
+    padding-top: 20px;
+}
+
+.footer__grid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 10%;
+
+}
+
+.footer__infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    color: #6e6e6e;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.footer__socials {
+    display: flex;
+    flex-wrap: nowrap;
+}

@@ -11,8 +11,7 @@ function Cover() {
 				<Grid container>
 					<Grid item xs={8}>
 						<Typography
-							variant="h2"
-							style={{ fontWeight: "bolder" }}>
+							style={{ fontWeight: "bolder", fontSize: "5vh" }}>
 							IT Outsourcing
 						</Typography>
 						<Typography variant="h6">
